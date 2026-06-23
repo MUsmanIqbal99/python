@@ -1,20 +1,5 @@
-def add(a, b):
-    return a + b
+def show(x):
+    return x * 2     # writes "10" on a note, hands it to you
 
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    if b == 0:
-        return "Error: cannot divide by zero"
-    else:
-        return a / b
-
-print("Add:", add(10, 5))
-print("Subtract:", subtract(10, 5))
-print("Multiply:", multiply(10, 5))
-print("Divide:", divide(10, 5))
-print("Divide by zero:", divide(10, 0))
+y = show(5)          # now y is holding 10
+print(y * 3)         # 10 * 3 = 30, works fine
